@@ -1,0 +1,9 @@
+body{
+  background-color: #404EEE;
+  padding: 1rem;
+  min-block-size: 100vh;
+}
+
+img{
+  float: inline-end;
+}

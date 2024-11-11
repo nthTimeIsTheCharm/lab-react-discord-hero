@@ -1,0 +1,25 @@
+.button {
+    padding: 0.25em 1.2em;
+    min-width: 10ch;
+    min-height: 44px;
+    text-align: center;
+    line-height: 1.1;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: 0;
+    margin-inline-end: 2rem;
+    margin-block-end: 1.5rem;
+}
+
+.primary-btn {
+    background-color: white;
+    color: black;
+    display: block;
+
+}
+
+.secondary-btn {
+    background-color: black;
+    color: white;
+    display: block;
+}

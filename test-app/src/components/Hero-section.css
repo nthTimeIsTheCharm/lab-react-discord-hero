@@ -1,0 +1,35 @@
+.hero-section {
+    color: white;
+    position: relative;
+}
+
+.flex-container{
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 1090px) {
+    .flex-container {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .hero-image{
+        inline-size: 100%;
+    }
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    padding-block: 3rem;
+    max-inline-size: 90%;
+
+}
+
+
+
+
